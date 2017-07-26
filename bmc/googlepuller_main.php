@@ -415,7 +415,7 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 				global $page_number;
 				
 				//global $user_search_query;
-					for($x = 0; $x<=0; $x++)
+					for($x = 0; $x<=3; $x++)
 					{ 
 							$this->curl_to_php($page_number);
 																		
